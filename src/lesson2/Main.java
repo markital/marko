@@ -12,7 +12,7 @@ public class Main {
          skills.add("java");
         skills.add("js");
         Wallet wallet =new Wallet(100000,  "leather");
-        User user= new User(1,"vasya",skills,wallet);
+        User user= new User(1,"vasya",skills, wallet);
        System.out.println( user.getWallet().getSum());
        //user.getWallet().setSum(20000);
        //System.out.println(user.getWallet().getSum());
